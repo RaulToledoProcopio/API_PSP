@@ -36,14 +36,15 @@ Esta API servirá para de momento registrar usuarios y logearlos a través de GO
 
 - En este caso vamos a registrar un usuario mediante insomnia a nivel local antes de desplegar la API
 
-<img src="Images/UserInsomnia.png" alt="UserInsomnia" width="1000"/>
+<img src="API/Images/UsuarioRegistrado.png" alt="UsuarioRegistrado" width="1000"/>
+<img src="API/Images/UsuarioRegistrado2.png" alt="UsuarioRegistrado2" width="1000"/>
 
 
 ### Logear con un Usuario
 
 - En este caso vamos a logearnos con un usuario a nivel local.
 
-<img src="Images/LoginInsomnia.png" alt="LoginInsomnia" width="10000"/>
+<img src="API/Images/LoginUsuario.png" alt="LoginUsuario" width="1000"/>
 
 ### Registrar un Usuario en Render
 
