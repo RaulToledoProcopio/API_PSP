@@ -16,8 +16,7 @@ namespace API
         {
             _mongoDbService = mongoDbService;
         }
-
-        // Ruta para registrar un usuario
+        
         [HttpPost("register")]
         public ActionResult Register([FromBody] User user)
         {
@@ -31,8 +30,7 @@ namespace API
             _mongoDbService.RegisterUser(user);
             return Ok("User registered successfully");
         }
-
-        // Ruta para logear al usuario
+        
         [HttpPost("login")]
         public ActionResult Login([FromBody] User user)
         {

@@ -48,4 +48,8 @@ Esta API servirá para de momento registrar usuarios y logearlos a través de GO
 
 ### Registrar un Usuario en Render
 
+- En este caso vamos a registrar un usuario mediante insomnia con la API desplegada
+
 ### Logear con un Usuario en Render
+
+- En este caso vamos a logear un usuario mediante insomnia con la API desplegada
