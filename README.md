@@ -4,7 +4,7 @@
 API de PSP para el videojuego de GODOT
 
 ## Descripción del Proyecto
-Esta API servirá para de momento registrar usuarios y logearlos a través de GODOT y en un futura para guardas las puntuaciones de los mismos.
+Esta API servirá para, de momento, registrar usuarios y logearlos a través de GODOT y en un futura para guardas las puntuaciones de los mismos.
 ### Documentos y sus Campos
 
 1. **Usuario**
@@ -62,3 +62,8 @@ Esta API servirá para de momento registrar usuarios y logearlos a través de GO
 - En este caso vamos a logear un usuario mediante insomnia con la API desplegada
 
 <img src="API/Images/LoginRender.png" alt="LoginRender" width="1000"/>
+
+
+## Por hacer:
+
+- Conectar el Login con el juego
