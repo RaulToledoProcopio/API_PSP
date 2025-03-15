@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
+using API.DTO;
 using API.Model;
 using API.Service;
 
@@ -40,14 +41,16 @@ namespace API
 
         
         [HttpPost("login")]
-        public ActionResult Login([FromBody] User user)
+        public ActionResult Login([FromBody] LoginDto request)
         {
-            var dbUser = _mongoDbService.GetUserByUsername(user.Username);
-            if (dbUser == null || dbUser.PasswordHash != HashPassword(user.PasswordHash))
+            var dbUser = _mongoDbService.GetUserByUsername(request.Username);
+            
+            if (dbUser == null || dbUser.PasswordHash != HashPassword(request.PasswordHash))
                 return Unauthorized("Invalid credentials");
 
             return Ok("Login successful");
         }
+
 
         // Método para hacer hash a la contraseña
         private string HashPassword(string password)
