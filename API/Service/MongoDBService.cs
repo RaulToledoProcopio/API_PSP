@@ -20,6 +20,13 @@ namespace API.Service
         {
             return Users.Find(u => u.Username == username).FirstOrDefault();
         }
+        
+        // Método para obtener un usuario por su email
+        public User GetUserByEmail(string email)
+        {
+            return Users.Find(u => u.Email == email).FirstOrDefault();
+        }
+
 
         // Método para registrar un nuevo usuario
         public void RegisterUser(User user)
