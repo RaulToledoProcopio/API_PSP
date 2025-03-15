@@ -9,7 +9,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96b0a3a-9841-475f-a0ba-fe273de7cbc9" name="Changes" comment="" />
+    <list default="true" id="e96b0a3a-9841-475f-a0ba-fe273de7cbc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Images/LoginCorrecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/LoginIncorrecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/RegistroCorrecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/RegistroIncorrecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/RegistroIncorrecto2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Images/LoginUsuario.png" beforeDir="false" afterPath="$PROJECT_DIR$/API/Images/LoginUsuario.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Images/RegisterRender.png" beforeDir="false" afterPath="$PROJECT_DIR$/API/Images/RegisterRender.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Images/RegisterRender2.png" beforeDir="false" afterPath="$PROJECT_DIR$/API/Images/RegisterRender2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Images/UsuarioRegistrado.png" beforeDir="false" afterPath="$PROJECT_DIR$/API/Images/UsuarioRegistrado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Images/UsuarioRegistrado2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net8.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/ref/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/refint/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/refint/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,21 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.API: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.API: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: http">
     <configuration name="API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -137,6 +163,9 @@
       <workItem from="1741674956316" duration="708000" />
       <workItem from="1741675714163" duration="52000" />
       <workItem from="1742039232841" duration="839000" />
+      <workItem from="1742041114582" duration="606000" />
+      <workItem from="1742041965040" duration="453000" />
+      <workItem from="1742042442807" duration="1532000" />
     </task>
     <servers />
   </component>

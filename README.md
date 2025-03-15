@@ -37,7 +37,6 @@ Esta API servirá para, de momento, registrar usuarios y logearlos a través de 
 - En este caso vamos a registrar un usuario mediante insomnia a nivel local antes de desplegar la API
 
 <img src="API/Images/UsuarioRegistrado.png" alt="UsuarioRegistrado" width="1000"/>
-<img src="API/Images/UsuarioRegistrado2.png" alt="UsuarioRegistrado2" width="1000"/>
 
 
 ### Logear con un Usuario
@@ -64,6 +63,32 @@ Esta API servirá para, de momento, registrar usuarios y logearlos a través de 
 <img src="API/Images/LoginRender.png" alt="LoginRender" width="1000"/>
 
 
-## Por hacer:
+## PRUEBAS EN EL JUEGO
 
-- Conectar el Login con el juego
+- En este caso hemos creado una pantalla para el login y otra para el registro
+
+### Registrar un Usuario
+
+- Vamos a registrar a un Usuario correctamente
+
+<img src="API/Images/RegistroCorrecto.png" alt="RegistroCorrecto" width="1000"/>
+<img src="API/Images/RegistroCorrectoDB.png" alt="RegistroCorrectoDB" width="1000"/>
+
+
+- Vamos a registrar a un Usuario con algún campo vacío
+
+<img src="API/Images/RegistroIncorrecto.png" alt="RegistroIncorrecto" width="1000"/>
+
+- Vamos a registrar a un Usuario con un Username/email que ya existe
+
+<img src="API/Images/RegistroIncorrecto2.png" alt="RegistroIncorrecto2" width="1000"/>
+
+### Logear con un Usuario
+
+- Hemos logeado con un Usuario correctamente, lo que nos lleva al menú del juego.
+
+<img src="API/Images/LoginCorrecto.png" alt="LoginCorrecto" width="1000"/>
+
+- Vamos a logear con un Usuario vacío o que no exista
+
+<img src="API/Images/LoginIncorrecto.png" alt="LoginIncorrecto" width="1000"/>
