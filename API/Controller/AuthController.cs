@@ -24,19 +24,19 @@ namespace API
             // Verificar si el usuario ya existe
             var existingUser = _mongoDbService.GetUserByUsername(user.Username);
             if (existingUser != null)
-                return BadRequest("User already exists");
+                return BadRequest("El usuario ya existe");
 
             // Verificar si el email ya está registrado
             var existingEmail = _mongoDbService.GetUserByEmail(user.Email);
             if (existingEmail != null)
-                return BadRequest("Email already registered");
+                return BadRequest("El email ya está registrado");
 
             // Encriptar la contraseña antes de guardarla
             user.PasswordHash = HashPassword(user.PasswordHash);
     
             // Guardar el usuario en la base de datos
             _mongoDbService.RegisterUser(user);
-            return Ok("User registered successfully");
+            return Ok("Usuario registrado");
         }
 
         
@@ -46,9 +46,9 @@ namespace API
             var dbUser = _mongoDbService.GetUserByUsername(request.Username);
             
             if (dbUser == null || dbUser.PasswordHash != HashPassword(request.PasswordHash))
-                return Unauthorized("Invalid credentials");
+                return Unauthorized("Credenciales incorrectas");
 
-            return Ok("Login successful");
+            return Ok("Login correcto");
         }
 
 
