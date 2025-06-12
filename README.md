@@ -4,31 +4,60 @@
 API de PSP para el videojuego de GODOT
 
 ## Descripción del Proyecto
-Esta API servirá para, de momento, registrar usuarios y logearlos a través de GODOT y en un futura para guardas las puntuaciones de los mismos.
+1. Registrar usuarios y autenticarles desde Godot.
+2. Guardar y recuperar las puntuaciones de las partidas jugadas.
 
 ### Documentos y sus Campos
 
 1. **Usuario**
 
-   - `id`: Identificador único del usuario generado automáticamente por MongoDB
-   - `username`: Nombre del usuario
-   - `password`: Contraseña cifrada
+   **Usuario**
+   - `id` : Identificador único generado por MongoDB.
+   - `username` : Nombre del usuario.
+   - `passwordHash` : Contraseña cifrada con SHA-256 y codificada en base64.
+   - `email` : Correo electrónico del usuario.
+
+   **Score**
+   - `id` : Identificador único generado por MongoDB.
+   - `username` : Nombre del usuario que jugó.
+   - `timeSeconds` : Tiempo en segundos obtenido en la partida.
+   - `playedAt` : Fecha y hora (UTC) en que se jugó la partida.
 
 ---
 
+## DTOs
+
+Para login
+```csharp
+public class LoginDto
+{
+    public string Username { get; set; }
+    public string PasswordHash { get; set; }
+}
+```
+Para enviar puntuaciones
+```csharp
+public class ScoreDto
+{
+    public string Username { get; set; }
+    public double TimeSeconds { get; set; }
+}
+```
 ## Endpoints de la API
 
-### **Autenticación**
+### **Autenticación** (`/api/auth`)
 
-1. **Registro de usuario** (`auth/register`)
-   - Permite registrar un nuevo usuario en la aplicación.
-   - Recibe username y password.
-   
+| Método | Ruta         | Descripción                              | Request Body                        | Response                                       |
+| ------ | ------------ |------------------------------------------| ----------------------------------- | ---------------------------------------------- |
+| POST   | `/register`  | Registra un nuevo usuario.               | `{ "username", "passwordHash", "email" }` | `200 OK` “Usuario registrado” / `400 Bad Request` |
+| POST   | `/login`     | Autentica un usuario y devuelve un token | `{ "username", "passwordHash" }`    | `200 OK` “Login correcto” / `401 Unauthorized` |
 
-2. **Login de usuario** (`auth/login`)
-   - Permite a los usuarios iniciar sesión.
-   - Recibe username y password.
-   - La idea es que devuelva un token JWT.
+### **Puntuaciones** (`/api/scores`)
+
+| Método | Ruta               | Descripción                                                 | Request Body              | Response                        |
+| ------ | ------------------ | ----------------------------------------------------------- | ------------------------- | ------------------------------- |
+| POST   | `/api/scores`      | Envía una nueva puntuación.                                 | `{ "username", "timeSeconds" }`| `200 OK` “Score añadido” / `400 Bad Request` |
+| GET    | `/api/scores/top10`| Recupera el Top 10 de mejores tiempos. |                           | `200 OK` List<Score>            |
 
 ---
 
