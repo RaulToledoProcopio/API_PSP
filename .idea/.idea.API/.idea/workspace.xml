@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96b0a3a-9841-475f-a0ba-fe273de7cbc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Images/ScoreInsomnia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/ScoreInsomniaB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Images/Top10Insomnia.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +154,7 @@
       <workItem from="1746294035636" duration="6017000" />
       <workItem from="1746300357825" duration="402000" />
       <workItem from="1746301018606" duration="764000" />
-      <workItem from="1749743938847" duration="923000" />
+      <workItem from="1749743938847" duration="2012000" />
     </task>
     <servers />
   </component>

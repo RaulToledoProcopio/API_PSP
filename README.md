@@ -123,3 +123,24 @@ public class ScoreDto
 - Vamos a logear con un Usuario vacío o que no exista
 
 <img src="API/Images/LoginIncorrecto.png" alt="LoginIncorrecto" width="1000"/>
+
+## Prueba de gestión de puntuaciones
+
+### Enviar puntuaciones en Insomnia
+
+<img src="API/Images/ScoreInsomnia.png" alt="RegistroCorrecto" width="1000"/>
+
+### Enviar puntuaciones sin cronómetro
+
+<img src="API/Images/ScoreInsomniaB.png" alt="RegistroCorrecto" width="1000"/>
+
+### Traer el Top10 en Insomnia
+
+<img src="API/Images/Top10Insomnia.png" alt="RegistroCorrecto" width="1000"/>
+
+### Vista dentro del juego
+
+<img src="API/Images/Top10Juego.png" alt="RegistroCorrecto" width="1000"/>
+
+
+
